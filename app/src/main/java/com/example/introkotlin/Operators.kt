@@ -20,4 +20,23 @@ fun main() {
 
     println("X value: $x")
 
+    // Assignment Operators
+    var w = 10
+    w += 5 // w = w + 5
+    println(w)
+
+    // Comparison Operators
+    var q = 19
+    var z = 12
+    println(q == z)
+    println(q != z)
+    println(q > z)
+    println(q < z)
+    println(q >= z)
+    println(q <= z)
+
+    // Logical Operators
+    // print(q > 10 && q < 100)
+    print(q > 10 || q < 15)
+
 }
